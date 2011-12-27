@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9E3A7F114A976CE0024C6D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E3A7F014A976CE0024C6D1 /* UIKit.framework */; };
+		F9E3A7F314A976CE0024C6D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E3A7F214A976CE0024C6D1 /* Foundation.framework */; };
+		F9E3A7F514A976CE0024C6D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E3A7F414A976CE0024C6D1 /* CoreGraphics.framework */; };
+		F9E3A81714A977550024C6D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3A81214A977550024C6D1 /* AppDelegate.m */; };
+		F9E3A81814A977550024C6D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3A81314A977550024C6D1 /* main.m */; };
+		F9E3A81914A977550024C6D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3A81514A977550024C6D1 /* ViewController.m */; };
+		F9E3A81A14A977550024C6D1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E3A81614A977550024C6D1 /* ViewController.xib */; };
+		F9F7F36314A980150006EA7E /* SBStackedBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F7F35314A97E7F0006EA7E /* SBStackedBarChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9E3A7EC14A976CE0024C6D1 /* SBStackedBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBStackedBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3A7F014A976CE0024C6D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9E3A7F214A976CE0024C6D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9E3A7F414A976CE0024C6D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9E3A81114A977550024C6D1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F9E3A81214A977550024C6D1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		F9E3A81314A977550024C6D1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = SOURCE_ROOT; };
+		F9E3A81414A977550024C6D1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/ViewController.h; sourceTree = SOURCE_ROOT; };
+		F9E3A81514A977550024C6D1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/ViewController.m; sourceTree = SOURCE_ROOT; };
+		F9E3A81614A977550024C6D1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = Classes/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		F9E3A81C14A977790024C6D1 /* SBStackedBarChart-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SBStackedBarChart-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F9E3A81D14A977790024C6D1 /* SBStackedBarChart-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SBStackedBarChart-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F9F7F35214A97E7F0006EA7E /* SBStackedBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBStackedBarChart.h; path = ../SBStackedBarChart.h; sourceTree = SOURCE_ROOT; };
+		F9F7F35314A97E7F0006EA7E /* SBStackedBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBStackedBarChart.m; path = ../SBStackedBarChart.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E3A7E914A976CE0024C6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3A7F114A976CE0024C6D1 /* UIKit.framework in Frameworks */,
+				F9E3A7F314A976CE0024C6D1 /* Foundation.framework in Frameworks */,
+				F9E3A7F514A976CE0024C6D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9E3A7E114A976CE0024C6D1 = {
+			isa = PBXGroup;
+			children = (
+				F9E3A7F614A976CE0024C6D1 /* SBStackedBarChart */,
+				F9E3A7EF14A976CE0024C6D1 /* Frameworks */,
+				F9E3A7ED14A976CE0024C6D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E3A7ED14A976CE0024C6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3A7EC14A976CE0024C6D1 /* SBStackedBarChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E3A7EF14A976CE0024C6D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3A7F014A976CE0024C6D1 /* UIKit.framework */,
+				F9E3A7F214A976CE0024C6D1 /* Foundation.framework */,
+				F9E3A7F414A976CE0024C6D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9E3A7F614A976CE0024C6D1 /* SBStackedBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				F9F7F36414A980A20006EA7E /* SBStackedBarChart */,
+				F9E3A81114A977550024C6D1 /* AppDelegate.h */,
+				F9E3A81214A977550024C6D1 /* AppDelegate.m */,
+				F9E3A81314A977550024C6D1 /* main.m */,
+				F9E3A81414A977550024C6D1 /* ViewController.h */,
+				F9E3A81514A977550024C6D1 /* ViewController.m */,
+				F9E3A81614A977550024C6D1 /* ViewController.xib */,
+				F9E3A7F714A976CE0024C6D1 /* Supporting Files */,
+			);
+			path = SBStackedBarChart;
+			sourceTree = "<group>";
+		};
+		F9E3A7F714A976CE0024C6D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3A81C14A977790024C6D1 /* SBStackedBarChart-Info.plist */,
+				F9E3A81D14A977790024C6D1 /* SBStackedBarChart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9F7F36414A980A20006EA7E /* SBStackedBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				F9F7F35214A97E7F0006EA7E /* SBStackedBarChart.h */,
+				F9F7F35314A97E7F0006EA7E /* SBStackedBarChart.m */,
+			);
+			name = SBStackedBarChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E3A7EB14A976CE0024C6D1 /* SBStackedBarChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E3A80A14A976CE0024C6D1 /* Build configuration list for PBXNativeTarget "SBStackedBarChart" */;
+			buildPhases = (
+				F9E3A7E814A976CE0024C6D1 /* Sources */,
+				F9E3A7E914A976CE0024C6D1 /* Frameworks */,
+				F9E3A7EA14A976CE0024C6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBStackedBarChart;
+			productName = SBStackedBarChart;
+			productReference = F9E3A7EC14A976CE0024C6D1 /* SBStackedBarChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E3A7E314A976CE0024C6D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = F9E3A7E614A976CE0024C6D1 /* Build configuration list for PBXProject "SBStackedBarChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9E3A7E114A976CE0024C6D1;
+			productRefGroup = F9E3A7ED14A976CE0024C6D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E3A7EB14A976CE0024C6D1 /* SBStackedBarChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E3A7EA14A976CE0024C6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3A81A14A977550024C6D1 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E3A7E814A976CE0024C6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3A81714A977550024C6D1 /* AppDelegate.m in Sources */,
+				F9E3A81814A977550024C6D1 /* main.m in Sources */,
+				F9E3A81914A977550024C6D1 /* ViewController.m in Sources */,
+				F9F7F36314A980150006EA7E /* SBStackedBarChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9E3A80814A976CE0024C6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9E3A80914A976CE0024C6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9E3A80B14A976CE0024C6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBStackedBarChart-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "SBStackedBarChart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/scottbossak/github/SBStackedBarChart/SBStackedBarChart/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9E3A80C14A976CE0024C6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBStackedBarChart-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "SBStackedBarChart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/scottbossak/github/SBStackedBarChart/SBStackedBarChart/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E3A7E614A976CE0024C6D1 /* Build configuration list for PBXProject "SBStackedBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3A80814A976CE0024C6D1 /* Debug */,
+				F9E3A80914A976CE0024C6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E3A80A14A976CE0024C6D1 /* Build configuration list for PBXNativeTarget "SBStackedBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3A80B14A976CE0024C6D1 /* Debug */,
+				F9E3A80C14A976CE0024C6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E3A7E314A976CE0024C6D1 /* Project object */;
+}
