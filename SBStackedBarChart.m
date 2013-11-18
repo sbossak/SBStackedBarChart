@@ -2,7 +2,7 @@
 // SBStackedBarChart.m
 //
 // Created by Scott Bossak on 12/26/2011
-// Copyright (C) 2011 Scott Bossak
+// Copyright (C) 2011 Scott Bossak and Maciej Swic
 // 
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -51,7 +51,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setBackgroundColor:[UIColor clearColor]];
-         
+        [self setContentMode:UIViewContentModeRedraw];
     }
     return self;
 }
@@ -71,19 +71,15 @@
         
         float dimension = ((horizontal ? self.frame.size.width : self.frame.size.height) * segment.value) / total;
         
-        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(horizontal ? offset : 0, 
-                                                                horizontal ? 0 : offset, 
-                                                                horizontal ? dimension : self.frame.size.width, 
-                                                                horizontal ? self.frame.size.height : dimension)];
-        view.backgroundColor = segment.color;
-
-        [self addSubview:view];
-        offset += horizontal ? view.frame.size.width : view.frame.size.height;
+        UIBezierPath* rectanglePath = [UIBezierPath bezierPathWithRect:CGRectMake(horizontal ? offset : 0,
+                                                                                  horizontal ? 0 : offset,
+                                                                                  horizontal ? dimension : self.frame.size.width,
+                                                                                  horizontal ? self.frame.size.height : dimension)];
+        [segment.color setFill];
+        [rectanglePath fill];
         
-        [view release];
-        
+        offset += horizontal ? (horizontal ? dimension : self.frame.size.width) : (horizontal ? self.frame.size.height : dimension);
     }
-    
 }
 
 @end
